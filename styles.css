@@ -19,3 +19,14 @@ a{
     text-decoration: none;
     
 }
+
+.texto2{
+    text-align: center;
+    width: 500px;
+    margin:auto;
+}
+
+#penguin{
+    width: 500px;
+    margin: auto;
+}
