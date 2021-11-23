@@ -30,3 +30,15 @@ a{
     width: 500px;
     margin: auto;
 }
+.skills{
+    text-align: center;
+    margin: auto;
+    width: 300px;
+}
+
+li{
+    list-style-type: none;
+}
+.coresh2{
+    color: #6a605c;
+}
