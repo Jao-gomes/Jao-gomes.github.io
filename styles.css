@@ -3,8 +3,19 @@
 .texto{
     font-size: 10;
     font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+}
+
+.texto img{
+    border-radius: 50%;
 }
 
 body{
     background-color: #CDF7F6;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+    
 }
