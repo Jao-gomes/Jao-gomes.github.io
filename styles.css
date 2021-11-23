@@ -37,8 +37,12 @@ a{
 }
 
 li{
-    list-style-type: none;
+    list-style-type: ;
+    list-style-position:inside;
+    text-align: center;
 }
 .coresh2{
-    color: #6a605c;
+    color: #8FB8DE;
+    font-family: 'Vast Shadow', cursive;
+    
 }
