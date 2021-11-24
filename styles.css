@@ -47,15 +47,18 @@ li{
 
 .icone img{
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
     width: 5%;
+    margin-bottom: 1px;
+    margin-top: 1px;
 }
 .icone2 img{
     border-radius: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 5%;
+    width: 5%;   
+    
+}
+.icone2, .icone{
+    text-align: center;
+}
+.linhatitulo{
+    vertical-align: middle;
 }
