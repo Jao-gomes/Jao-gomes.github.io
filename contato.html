@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contato — João Pedro</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main>
+      <nav class="navbar">
+        <a href="index.html"><button>Home</button></a>
+        <a href="sobre.html"><button>Sobre</button></a>
+        <a href="portfolio.html"><button>Portfólio</button></a>
+        <a href="novidades.html"><button>Novidades</button></a>
+        <a href="contato.html" class="active"><button>Contato</button></a>
+      </nav>
+
+      <div class="page-header fade-up">
+        <p class="eyebrow">Fale comigo</p>
+        <h1>Contato</h1>
+      </div>
+
+      <div class="contato-grid fade-up delay-1">
+
+        <div class="contato-info">
+          <h2>Informações</h2>
+          <p>Estou disponível para projetos freelance, oportunidades de emprego e colaborações. Sinta-se à vontade para entrar em contato!</p>
+
+          <h2>E-mail</h2>
+          <p>jpgomesguilhon1402@gmail.com</p>
+
+          <h2>Localização</h2>
+          <p>Brasil — Rio de Janeiro</p>
+
+          <h2>Redes Sociais</h2>
+          <div class="social-links">
+            <a href="https://github.com/Jao-gomes" target="_blank" class="social-link">
+              <span class="icon">⌨</span>
+              <span>GitHub — /joaopedro</span>
+            </a>
+            <a href="https://www.linkedin.com/in/jo%C3%A3o-gomes1401/" target="_blank" class="social-link">
+              <span class="icon">💼</span>
+              <span>LinkedIn — João Pedro Guilhon</span>
+            </a>
+            <a href="https://www.instagram.com/guilhonjoao_/" target="_blank" class="social-link">
+              <span class="icon">📷</span>
+              <span>Instagram — @guilhonjoao_</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="contato-form">
+          <h2>Envie uma mensagem</h2>
+          <div class="form-group">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" />
+          </div>
+          <div class="form-group">
+            <label for="assunto">Assunto</label>
+            <select id="assunto" name="assunto">
+              <option value="" disabled selected>Selecione um assunto</option>
+              <option value="freelance">Projeto Freelance</option>
+              <option value="emprego">Oportunidade de Emprego</option>
+              <option value="parceria">Parceria / Colaboração</option>
+              <option value="outro">Outro</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" placeholder="Escreva sua mensagem aqui..."></textarea>
+          </div>
+          <button type="button" class="btn" onclick="enviarFormulario()">Enviar Mensagem</button>
+        </div>
+
+      </div>
+    </main>
+
+    <footer>
+      <p>© 2026 João Pedro Guilhon Gomes dos Santos</p>
+      <p>Desenvolvedor Full Stack</p>
+    </footer>
+
+    <script src="js/pages/main.js"></script>
+  </body>
+</html>

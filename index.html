@@ -1,41 +1,59 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bem vindo!!!</title>
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>João Pedro — Desenvolvedor Full Stack</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
     <main>
-        <nav class="navbar">
-            <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="sobre.html">sobre</a></li>
-                <li><a href="novidades.html">novidades</a></li>
-                <li><a href="contato.html">contato</a></li>
-            </ul>
-        </nav>
-        <h3>bem vindo!!!!</h3>
-        <h1>João Pedro</h1>
-        <section>
-            <img src="/images/fotojoao.jpeg" alt="Foto de Perfil João Pedro">
-            <div id="card"></div>
-                <div>
-                    <p>Nome:</p>
-                    <p>Aniversário:</p>
-                    <p>cargo:</p>
-                    <p>Habilidades:</p>
-                </div>
-                <div>
-                    <p>João Pedro Guilhon Gomes dos Santos</p>
-                    <p>14 de Janeiro de 2002</p>
-                    <p>Desenvolvedor Web full stack</p>
-                    <p>RTL, JEST, JavaScript, React, Redux, Docker, MySQL, Node JS</p>
-                </div>
-            </div>
-        </section>
+      <nav class="navbar">
+        <a href="index.html" class="active"><button>Home</button></a>
+        <a href="sobre.html"><button>Sobre</button></a>
+        <a href="portfolio.html"><button>Portfólio</button></a>
+        <a href="novidades.html"><button>Novidades</button></a>
+        <a href="contato.html"><button>Contato</button></a>
+      </nav>
+
+      <section class="me">
+        <div class="me-text">
+          <p class="eyebrow fade-up delay-1">Desenvolvedor Web Full Stack</p>
+          <h1 class="fade-up delay-2">João Pedro<br>Guilhon</h1>
+          <p class="fade-up delay-4">
+            Apaixonado por tecnologia e pela construção de experiências digitais completas,
+            do back-end ao front-end. Transformo ideias em produtos funcionais e bem projetados.
+          </p>
+          <div class="fade-up delay-4">
+            <a href="portfolio.html" class="btn">Ver Projetos</a>
+            <a href="contato.html" class="btn btn-outline">Entrar em Contato</a>
+          </div>
+        </div>
+
+        <div class="me-image">
+          <img src="./images/fotojoao.png" alt="João Pedro" onerror="this.style.display='none'; document.getElementById('placeholder').style.display='flex';" />
+          <div id="placeholder" class="me-placeholder" style="display:none;">
+            <span style="font-size:2rem;">👤</span>
+            <span>João Pedro</span>
+          </div>
+        </div>
+      </section>
+
+      <div class="skills-strip">
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">React</span>
+        <span class="skill-tag">Redux</span>
+        <span class="skill-tag">Node.js</span>
+        <span class="skill-tag">MySQL</span>
+        <span class="skill-tag">Docker</span>
+        <span class="skill-tag">Jest</span>
+        <span class="skill-tag">RTL</span>
+      </div>
     </main>
-    <script src="./js/pages/main.js"></script>
-</body>
+
+    <footer>
+      <p>© 2026 João Pedro Guilhon Gomes dos Santos</p>
+      <p>Desenvolvedor Full Stack</p>
+    </footer>
+  </body>
 </html>
